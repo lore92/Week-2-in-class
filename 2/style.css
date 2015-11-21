@@ -8,22 +8,35 @@ body{
 }
 #red{
     background:red;
+    /*position: relative;*/
+    width: 100%;
+    z-index: 9999;
 }
 #green{
     background:green;
 }
+#cyan{
+background:cyan;
+
+}
 #blue{
     background:blue;
+    float: left;
+    width: 30%
+
 }
 #parent{
     border:5px solid black;
     position:relative;
+    width: 40%;
+    float: left;
 }
 #purple{
     background:purple;
 }
 #yellow{
     background: yellow;
+
 }
 .box{
     min-height:100px;
